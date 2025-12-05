@@ -1,0 +1,5 @@
+print("Hello, My name is John Fobbes")
+name=input("What is your name?")
+print(f"Hello{name} Hope your doing great")
+emotion=input("how are you feeling today")
+print(f"Thanks for telling me that you are feeling{emotion}")

@@ -89,7 +89,7 @@ for i in range(10000000000):
     if i % 100 == 0:
          timer += 1
     
-    if timer >= 30 and Bronny_tags >= LeBron_tags:
+    if timer >= 10 and Bronny_tags >= LeBron_tags:
         message_sprite.clear()
         message_sprite.write("Bronny Wins Yayayyaayayya", font = ("Arial",30, "normal"))
     elif timer >= 30 and LeBron_tags > Bronny_tags:

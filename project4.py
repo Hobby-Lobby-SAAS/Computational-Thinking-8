@@ -26,7 +26,7 @@ def get_seahawks():
     seahawks_list.append (sprite1)
 
 window.onkeypress (get_seahawks, "space")
-# if you press "space" then you get a seahawk.
+# if you press "space" then you get a seahawks.
 def get_jsn():
     global seahawks, jsn, cost, seahawks_list
     if seahawks >= cost:
